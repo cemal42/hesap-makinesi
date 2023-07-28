@@ -1,0 +1,18 @@
+.CalculatorResult {
+    width: 399px;
+    height: 4em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.result {
+    font-size: 40px;
+}
+
+.process {
+    font-size: 20px;
+}
