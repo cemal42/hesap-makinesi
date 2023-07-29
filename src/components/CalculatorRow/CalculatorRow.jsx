@@ -46,10 +46,10 @@ const CalculatorRow = () => {
             <div className="row">
                 <Button symbol="0" handleClick={handleClick} />
                 <Button symbol="." handleClick={handleClick} />
-                <Button symbol="=" handleClick={processResult} />
+                <Button symbol="=" color="#4ECCA3" handleClick={processResult} />
                 <Button symbol="+" color="gray" handleClick={handleClick} />
             </div>
-            <Button symbol="clear" color="orange" handleClick={clearCalc} />
+            <Button symbol="clear" color="#ED6363" handleClick={clearCalc} />
         </div>
     )
 }
