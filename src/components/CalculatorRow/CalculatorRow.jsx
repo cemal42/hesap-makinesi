@@ -19,7 +19,7 @@ const CalculatorRow = () => {
 
     const processResult = () => {
         const input = process.join("")
-        setResult(math.evaluate(input))
+        setResult(math.evaluate(input).toFixed(2))
     }
 
     return (
